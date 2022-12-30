@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+@import url(https://fonts.googleapis.com/css?family=Special+Elite:regular);
+
+@import url(https://fonts.googleapis.com/css?family=Berkshire+Swash:regular);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+@import url(https://fonts.googleapis.com/css?family=Freehand:regular);
+
+@import url(https://fonts.googleapis.com/css?family=Source+Serif+Pro:200,200italic,300,300italic,regular,italic,600,600italic,700,700italic,900,900italic);
+
+@import url(https://fonts.googleapis.com/css?family=Pacifico:regular);
+
+@import url(https://fonts.googleapis.com/css?family=Architects+Daughter:regular);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+}
+
+@layer base {
+  body {
+    @apply antialiased min-h-full p-0 m-0 box-border overflow-x-hidden tracking-normal leading-normal text-[#111] bg-slate-200 font-medium font-raleway;
+  }
+
+  html {
+    @apply scroll-smooth min-h-full overflow-x-hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold;
+  }
+
+  h1 {
+    @apply tracking-widest leading-7 text-3xl sm:text-5xl md:text-4xl font-berkshireswash;
+  }
+
+  h2 {
+    @apply text-3xl tracking-wider leading-6;
+  }
+
+  h3 {
+    @apply text-xl tracking-wider leading-6;
+  }
+
+  p {
+    @apply tracking-wide leading-4 text-slate-800 font-medium text-lg font-montserrat;
+  }
+
+  ul {
+    @apply list-none;
+  }
+
+  li {
+    @apply p-4 font-sourceserifpro tracking-wider leading-6;
+  }
+
+  button {
+    @apply rounded-full border font-specialelite tracking-wide border-purple-700 text-stone-800 p-2 m-auto;
+  }
+
+  .icon {
+    @apply text-2xl cursor-pointer;
+  }
+
+  .custom-img {
+    @apply background-image: url("https://images.unsplash.com/photo-1638742385167-96fc60e12f59?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80");
+  }
+}
