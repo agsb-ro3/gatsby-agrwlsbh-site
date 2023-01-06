@@ -30,14 +30,14 @@ const IndexPage = () => {
                   .
                 </span>
               </h1>
-              <p className="mt-3 text-sm mx-3 my-auto leading-relaxed bg-blue-200 rounded-3xl p-4 uppercase text-slate-800 shadow-xl shadow-slate-800 font-medium font-montserrat">
+              <p className="mt-3 text-sm mx-3 my-auto leading-relaxed bg-blue-200 rounded-3xl p-4 uppercase text-slate-800 shadow-lg shadow-[#111] font-medium font-montserrat">
                 {Text}
               </p>
             </div>
             <br />
             <div className="mt-6 flex items-center py-12 justify-center gap-4">
               <Link href="/work" title="our work">
-                <div className="shadow-xl shadow-stone-800 bg-gradient-to-r from-gray-300 via-slate-300 to-slate-500 ... rounded-full bg-slate p-6 cursor-pointer hover:scale-110 ease-in duration-300 delay-75">
+                <div className="shadow-lg shadow-[#111] bg-gradient-to-r from-gray-300 via-slate-300 to-slate-500 ... rounded-full bg-slate p-6 cursor-pointer hover:scale-110 ease-in duration-300 delay-75">
                   <HiOutlineChevronDoubleRight
                     size={32}
                     className="m-auto text-emerald-600"

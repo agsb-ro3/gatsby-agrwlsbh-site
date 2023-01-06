@@ -31,7 +31,7 @@ const Members = () => {
                   <input
                     placeholder="Search..."
                     onChange={e => setSearch(e.target.value)}
-                    className="appearance-none rounded-2xl border font-montserrat font-medium border-gray-300 border-b block pl-8 pr-6 py-2 w-full bg-slate-200 text-sm placeholder-stone-400 text-[darkslateblue] focus:bg-amber-100 focus:placeholder-stone-600 focus:text-blue-700 focus:outline-none"
+                    className="appearance-none rounded-2xl border font-montserrat font-medium border-gray-300 border-b block pl-8 pr-6 py-2 w-full bg-slate-200 text-sm placeholder-stone-400 text-slate-700 focus:bg-amber-100 focus:placeholder-stone-600 selection:bg-lime-300 focus:text-[#111] focus:outline-none"
                   />
                 </div>
               </div>
