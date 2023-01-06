@@ -8,6 +8,8 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix: "/gatsby-agrwlsbh-site",
+},
   siteMetadata: {
     title: `Aggarwal Sabha`,
     description: `The official website of Aggarwal Sabha - Rohini.`,
