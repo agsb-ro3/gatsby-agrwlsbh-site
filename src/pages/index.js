@@ -21,7 +21,7 @@ const IndexPage = () => {
         <section className="py-24 flex items-center min-h-screen justify-center">
           <div className="mx-auto max-w-[43rem]">
             <div className="text-center">
-              <p className="text-xl font-bold leading-8 font-montserrat tracking-widest text-[dimgray] animate-bounce">
+              <p className="text-xl font-bold leading-8 font-montserrat tracking-widest text-[dimgray]">
                 Welcome,&nbsp;visitor&nbsp;!
               </p>
               <h1 className="mt-3 text-[4rem] font-bold leading-[4rem] tracking-tight font-montserrat bg-clip-text text-transparent bg-gradient-to-r from-emerald-500 via-slate-400 to-slate-900 ... hover:scale-110 ease-in-out duration-300">
