@@ -11,7 +11,7 @@ const About = () => {
     },
     {
       name: "Sh. Deepak Aggarwal",
-      picture: "/static/pics/deepakaggarwal.png",
+      picture: "/static/pics/deepakaggarwal.jpg",
     },
     {
       name: "Sh. Manoj Bajaj",
@@ -19,11 +19,11 @@ const About = () => {
     },
     {
       name: "Sh. Satish Kumar Aggarwal",
-      picture: "/static/pics/satishaggarwal.png",
+      picture: "/static/pics/satishaggarwal.jpg",
     },
     {
       name: "Smt. Meenakshi Arya",
-      picture: "/static/pics/meenakshiarya.png",
+      picture: "/static/pics/meenakshiarya.jpg",
     },
     {
       name: "Smt. Pratima Garg",
@@ -31,15 +31,15 @@ const About = () => {
     },
     {
       name: "Smt. Vijay Shree Aruna",
-      picture: "/static/pics/vijayshreearuna.png",
+      picture: "/static/pics/vijayshreearuna.jpg",
     },
     {
       name: "Sh. Yogendra Garg",
-      picture: "/static/pics/yogendragarg.png",
+      picture: "/static/pics/yogendragarg.jpg",
     },
     {
       name: "Sh. Sanjay Goyal",
-      picture: "/static/pics/sanjaygoyal.png",
+      picture: "/static/pics/sanjaygoyal.jpg",
     },
   ]
 
