@@ -6,199 +6,40 @@ import Seo from "../components/seo"
 const About = () => {
   const people = [
     {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
+      name: "Sh. Atul Singhal",
+      picture: "/static/pics/atulsinghal.jpg",
     },
     {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
+      name: "Sh. Deepak Aggarwal",
+      picture: "/static/pics/deepakaggarwal.png",
     },
     {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
+      name: "Sh. Manoj Bajaj",
+      picture: "/static/pics/manojbajaj.jpg",
     },
     {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
+      name: "Sh. Satish Kumar Aggarwal",
+      picture: "/static/pics/satishaggarwal.png",
     },
     {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
+      name: "Smt. Meenakshi Arya",
+      picture: "/static/pics/meenakshiarya.png",
     },
     {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
+      name: "Smt. Pratima Garg",
+      picture: "/static/pics/pratimagarg.jpg",
     },
     {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
+      name: "Smt. Vijay Shree Aruna",
+      picture: "/static/pics/vijayshreearuna.png",
     },
     {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
+      name: "Sh. Yogendra Garg",
+      picture: "/static/pics/yogendragarg.png",
     },
     {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
-    },
-    {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
-    },
-    {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
-    },
-    {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
-    },
-    {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
-    },
-    {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
-    },
-    {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
-    },
-    {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
-    },
-    {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
-    },
-    {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
-    },
-    {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
-    },
-    {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
-    },
-    {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
-    },
-    {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
-    },
-    {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
-    },
-    {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
-    },
-    {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
-    },
-    {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
-    },
-    {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
-    },
-    {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
-    },
-    {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
-    },
-    {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
-    },
-    {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
-    },
-    {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
-    },
-    {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
-    },
-    {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
-    },
-    {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
-    },
-    {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
-    },
-    {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
-    },
-    {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
-    },
-    {
-      name: "Sh.",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
+      name: "Sh. Sanjay Goyal",
+      picture: "/static/pics/sanjaygoyal.png",
     },
   ]
 
@@ -252,11 +93,6 @@ const About = () => {
                         />
                       </div>
                       <div className="relative py-16 px-4 sm:p-0 flex flex-col bg-white sm:bg-transparent bg-opacity-40 group-hover:bg-opacity-80">
-                        {/* ::Role */}
-                        <h3 className="w-full inline-flex items-center text-xs text-emerald-500 uppercase tracking-wide transition-all duration-200 ease-in transform translate-y-20 sm:translate-y-0 group-hover:translate-y-0">
-                          <span className="flex-shrink-0">{person.role}</span>
-                          <span className="ml-3 w-1/4 h-0.5 bg-emerald-500" />
-                        </h3>
                         {/* ::Name */}
                         <h4 className="mb-2 text-3xl sm:text-lg text-black text-opacity-40 sm:text-opacity-100 font-extrabold sm:font-semibold transition-all duration-200 ease-in transform translate-y-20 sm:translate-y-0 group-hover:translate-y-0">
                           {person.name}

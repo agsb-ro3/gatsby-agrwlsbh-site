@@ -18,7 +18,7 @@ const About = () => {
     {
       name: " Sh. Pushpender Kumar Mittal",
       role: "POST",
-      picture: "/static/pics/pkmittal.png",
+      picture: "/static/pics/pushpenderkumarmittal.jpg",
     },
     {
       name: "Sh. Krishan Gopal Garg",
