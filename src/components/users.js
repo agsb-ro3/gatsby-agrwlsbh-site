@@ -3717,7 +3717,7 @@ export const Users = [
     profession: "...",
   },
   {
-    image: "/static/pics/deepakaggarwal.png",
+    image: "/static/pics/avataaars_1_male.png",
     id: "T-195",
     joined: "5/4/2018",
     name: "Sh.Deepak Aggarwal",
@@ -3822,7 +3822,7 @@ export const Users = [
     profession: "...",
   },
   {
-    image: "/static/pics/sanjaygoyal.png",
+    image: "/static/pics/avataaars_1_male.png",
     id: "T-210",
     joined: "10/11/2018",
     name: "Sh.Sanjay Goyal",
@@ -4137,7 +4137,7 @@ export const Users = [
     profession: "...",
   },
   {
-    image: "/static/pics/vijayshreearuna.png",
+    image: "/static/pics/avataaars_2_female.png",
     id: "T-256",
     joined: "10/22/2018",
     name: "Smt.Vijay Shree Aruna",
@@ -4375,7 +4375,7 @@ export const Users = [
     profession: "...",
   },
   {
-    image: "/static/pics/satishaggarwal.png",
+    image: "/static/pics/avataaars_1_male.png",
     id: "L-049",
     joined: "24/06/2018",
     name: "Sh. Satish Kumar Aggarwal",
