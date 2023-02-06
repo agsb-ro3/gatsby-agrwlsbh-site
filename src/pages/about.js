@@ -6,34 +6,19 @@ import Seo from "../components/seo"
 const About = () => {
   const people = [
     {
-      name: "Sh. Bal Krishan Singla",
-      role: "POST",
-      picture: "/static/pics/balkrishansingla.jpg",
-    },
-    {
-      name: "Sh. Sanjay Bansal",
-      role: "POST",
-      picture: "/static/pics/sanjaybansal.jpg",
-    },
-    {
-      name: " Sh. Pushpender Kumar Mittal",
-      role: "POST",
-      picture: "/static/pics/pushpenderkumarmittal.jpg",
-    },
-    {
       name: "Sh. Krishan Gopal Garg",
       role: "POST",
       picture: "/static/pics/krishangopalgarg.jpg",
     },
     {
-      name: "Sh. Vijay Kumar Gupta",
-      role: "POST",
-      picture: "/static/pics/vijaykumargupta.jpg",
-    },
-    {
       name: "Sh. Naresh Gupta",
       role: "POST",
       picture: "/static/pics/avataaars_1_male.png",
+    },
+    {
+      name: "Sh. Sanjay Bansal",
+      role: "POST",
+      picture: "/static/pics/sanjaybansal.jpg",
     },
     {
       name: "Sh. Vipin Goel",
@@ -44,6 +29,21 @@ const About = () => {
       name: "Sh. Manoj Kumar Gupta",
       role: "POST",
       picture: "/static/pics/avataaars_1_male.png",
+    },
+    {
+      name: "Sh. Bal Krishan Singla",
+      role: "POST",
+      picture: "/static/pics/balkrishansingla.jpg",
+    },
+    {
+      name: " Sh. Pushpender Kumar Mittal",
+      role: "POST",
+      picture: "/static/pics/pushpenderkumarmittal.jpg",
+    },
+    {
+      name: "Sh. Vijay Kumar Gupta",
+      role: "POST",
+      picture: "/static/pics/vijaykumargupta.jpg",
     },
     {
       name: "Sh. Mahender Kumar Goyal",
