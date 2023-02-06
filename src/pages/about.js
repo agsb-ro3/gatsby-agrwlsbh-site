@@ -31,9 +31,19 @@ const About = () => {
       picture: "/static/pics/avataaars_1_male.png",
     },
     {
-      name: "Sh. Bal Krishan Singla",
+      name: "Sh. Mahender Kumar Goyal",
       role: "POST",
-      picture: "/static/pics/balkrishansingla.jpg",
+      picture: "/static/pics/avataaars_1_male.png",
+    },
+    {
+      name: "Sh. Narinder Kumar Singhal",
+      role: "POST",
+      picture: "/static/pics/avataaars_1_male.png",
+    },
+    {
+      name: "Sh. Mahinder Kumar Aggarwal",
+      role: "POST",
+      picture: "/static/pics/avataaars_1_male.png",
     },
     {
       name: " Sh. Pushpender Kumar Mittal",
@@ -46,17 +56,7 @@ const About = () => {
       picture: "/static/pics/vijaykumargupta.jpg",
     },
     {
-      name: "Sh. Mahender Kumar Goyal",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
-    },
-    {
-      name: "Sh. Narinder Kumar Singhal",
-      role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
-    },
-    {
-      name: "Sh. Mahinder Kumar Aggarwal",
+      name: "Sh. Jai Prakash Garg",
       role: "POST",
       picture: "/static/pics/avataaars_1_male.png",
     },
