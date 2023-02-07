@@ -31,13 +31,13 @@ const Contact = () => {
             </p>
             <hr className="border-blue-300" />
             <p className="text-center tracking-wide font-medium leading-5 font-poppins">
-              Rohini&nbsp;&middot;&nbsp;Delhi-85
+              Rohini Sector-9,13,14&nbsp;&middot;&nbsp;Delhi-85
             </p>
           </div>
         </div>
         <div className="max-w-full mx-auto flex mt-2 mb-auto p-2 flex-col lg:flex-row sm:flex-col flex-nowrap justify-center items-center border border-[dimgray] rounded-lg shadow-lg shadow-[#111]">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.91477045108!2d-74.11976318501887!3d40.6974034421831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1672388084070!5m2!1sen!2sus"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55972.70555787487!2d77.0577435672853!3d28.74063493794535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d013a47a1803d%3A0xedfb8cc477815e2f!2sRohini%2C%20New%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1675748777405!5m2!1sen!2sin"
             title="map"
             width="400px"
             height="300px"

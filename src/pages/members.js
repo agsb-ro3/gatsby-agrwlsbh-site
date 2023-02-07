@@ -20,7 +20,12 @@ const Members = () => {
             Members&nbsp;
             <span className="text-emerald-500 text-7xl font-poppins">.</span>
           </h1>
-          <br />
+          <p className="mt-4 text-base font-montserrat">
+            We have approximately 650 members in our ecosystem currently, and we
+            are growing every year with each event in the Sabha. Below is the
+            list of members along with their professions so that we can
+            collaborate by business vertical:
+          </p>
           <div className="container mx-auto px-4 sm:px-8">
             <div className="py-8">
               <div className="my-2 flex sm:flex-row flex-col">
@@ -47,7 +52,7 @@ const Members = () => {
                           Name
                         </th>
                         <th className="px-5 py-3 border-b-2 border-gray-200 bg-slate-300 text-left text-xs font-bold text-stone-700 uppercase tracking-wider">
-                          Joined
+                          DOB
                         </th>
                         <th className="px-5 py-3 border-b-2 border-gray-200 bg-slate-300 text-left text-xs font-bold text-stone-700 uppercase tracking-wider">
                           Profession
@@ -81,7 +86,7 @@ const Members = () => {
                           </td>
                           <td className="px-5 py-5 border-b border-slate-200 bg-[beige] text-sm">
                             <p className="text-gray-900 whitespace-no-wrap">
-                              {user.joined}
+                              {user.dob}
                             </p>
                           </td>
                           <td className="px-5 py-5 border-b border-slate-200 bg-[beige] text-sm">

@@ -19,11 +19,11 @@ const Work = () => {
                 .
               </span>
             </h3>
-            <p className="bg-slate-200 p-4 m-4 rounded-2xl text-justify border-4 border-[dimgray]">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure
-              debitis natus vitae dolorum, expedita dolore commodi, quo cum
-              eaque perferendis, repudiandae neque nobis. Fugit incidunt
-              architecto tempora nihil corrupti accusamus?
+            <p className="bg-slate-200 p-4 m-4 rounded-2xl text-justify border-4 border-[dimgray] leading-6 tracking-wide">
+              We are a group of esteemed people residing in Rohini,
+              predominantly in societies of sector 9, 13, and 14, who are
+              committed to contributing to society. This Sabha works for society
+              and people in and around it.
             </p>
           </div>
           <div className="sticky top-0 h-screen flex flex-col items-center justify-center bg-indigo-800">
@@ -33,11 +33,16 @@ const Work = () => {
                 .
               </span>
             </h3>
-            <p className="bg-slate-200 p-4 m-4 rounded-2xl text-justify border-4 border-stone-500">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure
-              debitis natus vitae dolorum, expedita dolore commodi, quo cum
-              eaque perferendis, repudiandae neque nobis. Fugit incidunt
-              architecto tempora nihil corrupti accusamus?
+            <p className="bg-slate-200 p-4 m-4 rounded-2xl text-justify border-4 border-stone-500 leading-6 tracking-wide">
+              <ol>
+                The noted works of Aggarwal Sabha - Rohini are:
+                <li>A homeopathic clinic which is charitable.</li>
+                <li>
+                  Adoption of a park from the government so that it can be taken
+                  care of and plantation of various plants and flowers.
+                </li>
+                <li>A marriage center which is also charitable.</li>
+              </ol>
             </p>
           </div>
           <div className="sticky top-0 h-screen flex flex-col items-center justify-center bg-purple-600">
@@ -47,7 +52,7 @@ const Work = () => {
                 .
               </span>
             </h3>
-            <p className="bg-slate-200 p-4 m-4 rounded-2xl text-justify border-4 border-slate-500">
+            <p className="bg-slate-200 p-4 m-4 rounded-2xl text-justify border-4 border-slate-500 leading-6 tracking-wide">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure
               debitis natus vitae dolorum, expedita dolore commodi, quo cum
               eaque perferendis, repudiandae neque nobis. Fugit incidunt
@@ -61,7 +66,7 @@ const Work = () => {
                 .
               </span>
             </h3>
-            <p className="bg-slate-200 p-4 m-4 rounded-2xl text-justify border-4 border-[#ff7745]">
+            <p className="bg-slate-200 p-4 m-4 rounded-2xl text-justify border-4 border-[#ff7745] leading-6 tracking-wide">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure
               debitis natus vitae dolorum, expedita dolore commodi, quo cum
               eaque perferendis, repudiandae neque nobis. Fugit incidunt

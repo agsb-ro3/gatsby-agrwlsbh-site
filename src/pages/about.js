@@ -73,11 +73,10 @@ const About = () => {
               ABOUT&nbsp;US
             </p>
             <h2 className="py-6 text-stone-700">Who&nbsp;We&nbsp;Are.</h2>
-            <p className="p-3 text-stone-700 rounded-lg shadow-lg shadow-[#111] mb-4 bg-blue-200">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-              magnam odio est modi accusamus, dolore rerum voluptatem commodi
-              consequuntur incidunt odit molestiae, quibusdam fugit. Quasi
-              officia soluta quae esse enim!
+            <p className="p-3 text-stone-700 rounded-lg shadow-lg shadow-[#111] mb-4 bg-blue-200 tracking-wide leading-6">
+              One of the most prominent groups is Aggarwal Sabha Rohini Group
+              Housing, established on May 2, 2002, with members who have an
+              aesthetic profile.
             </p>
           </div>
           <div className="rounded-lg object-fill p-2 mt-12 mb-auto shadow-lg shadow-[#111] bg-blue-200 hover:scale-105 ease-in duration-300 delay-75">

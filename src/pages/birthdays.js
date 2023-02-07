@@ -1,15 +1,38 @@
 import * as React from "react"
-import {
-  FaAngleLeft,
-  FaAngleRight,
-  FaBirthdayCake,
-  FaCalendarDay,
-} from "react-icons/fa"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import { Users } from "../components/users"
+
+const User = ({ name, image, dob }) => (
+  <div className="p-2">
+    <img
+      src={image}
+      alt={name}
+      width={500}
+      height={500}
+      className="px-auto py-2 w-full h-auto rounded-lg object-cover shadow-lg shadow-black"
+    />
+    <p className="px-auto py-2 text-center text-[#000080] font-sourceserifpro text-sm lg:text-lg sm:text-sm uppercase">
+      <span className="text-black font-specialelite font-normal">NAME:</span>{" "}
+      {name}
+    </p>
+    <hr className="border-[dimgray]" />
+    <p className="px-auto py-2 text-center text-[crimson] font-sourceserifpro text-sm lg:text-lg sm:text-sm">
+      <span className="text-black font-normal font-specialelite">DOB:</span>{" "}
+      {dob}
+    </p>
+    <hr className="border-[dimgray] border-dashed" />
+  </div>
+)
 
 const Birthdays = () => {
+  const [selectedDay, setSelectedDay] = React.useState("01")
+
+  const filteredUsers = Users.filter(
+    user =>
+      new Date(user.dob).getDate().toString().padStart(2, "0") === selectedDay
+  )
   return (
     <Layout>
       <div
@@ -21,86 +44,46 @@ const Birthdays = () => {
           <span className="text-emerald-500 text-7xl font-poppins">.</span>
         </h1>
         <br />
-        <div className="flex flex-col max-w-7xl h-auto mx-auto justify-around px-4 py-6 my-5 text-center bg-blue-100 rounded-lg border-b-[2px] border-[dimgray] animate-bounce shadow-inner">
+        <div className="flex flex-col max-w-3xl h-auto mx-auto justify-around px-4 py-6 my-5 text-center bg-blue-100 rounded-lg border-b-[2px] border-[dimgray] animate-bounce shadow-inner">
           <p className="font-bold font-architectsdaughter tracking-widest leading-6 text-xl text-stone-800 hover:text-blue-700">
-            Sh./Smt. XYZ was born today! Aggarwal Sabha - Rohini wishes them a
-            very Happy Birthday!
+            Aggarwal Sabha - Rohini wishes you a very Happy Birthday!
           </p>
         </div>
-        <aside className="flex flex-col max-w-3xl h-auto mx-auto items-center justify-around p-4 my-4 bg-slate-200 rounded-lg border-stone-700 border-b-[2px]">
-          <form className="w-full">
-            <div className="flex flex-col my-2">
-              <label className="w-fit h-auto" htmlFor="name">
-                <p className="bg-slate-200 rounded-lg shadow-lg font-medium tracking-widest leading-6 shadow-[#111] hover:scale-105 ease-in-out duration-300 p-2 m-2 text-center">
-                  <FaAngleLeft
-                    size={25}
-                    color="deeppink"
-                    className="inline-flex flex-auto justify-self-start"
-                  />
-                  <span className="px-2">B&apos;DAY&nbsp;CALENDAR!</span>
-                  <FaAngleRight
-                    size={25}
-                    color="deeppink"
-                    className="inline-flex flex-auto justify-self-end"
-                  />
-                </p>
-              </label>
-              <select className="border rounded-xl p-2 my-2">
-                <option className="font-raleway">NAME</option>
-                <option className="font-raleway">POST</option>
-              </select>
-            </div>
-            <div className="flex flex-col my-4">
-              <label
-                className="text-blue-600 text-justify p-1 font-sourceserifpro font-bold items-baseline"
-                htmlFor="name"
-              >
-                <span className="px-2">DATE</span>
-                <FaCalendarDay
-                  size={20}
-                  color="darkblue"
-                  className="inline-flex flex-auto justify-self-end"
-                />
-              </label>
-              <input type="date" className="border rounded-xl p-2" />
-            </div>
-            <div className="flex flex-col my-2">
-              <label
-                className="text-blue-600 text-justify p-1 font-sourceserifpro font-bold items-baseline"
-                htmlFor="name"
-              >
-                UPCOMING&nbsp;
-                <span className="text-emerald-500 text-3xl font-berkshireswash">
-                  ...&nbsp;
-                </span>
-                <FaBirthdayCake
-                  size={20}
-                  color="darkblue"
-                  className="inline-flex flex-auto justify-self-end"
-                />
-              </label>
-              <input type="date" className="border rounded-xl p-2" />
-            </div>
-          </form>
-        </aside>
         <div className="flex max-w-5xl mx-auto h-auto py-4 my-2 items-center justify-center px-4 rounded-3xl bg-transparent">
-          <div className="max-w-fit overflow-hidden rounded-lg p-3 m-2 bg-blue-100 shadow-[#111] shadow-lg duration-200 hover:scale-105 hover:shadow-xl">
-            <img
-              src="https://source.unsplash.com/random/500x500"
-              alt="Sh./Smt. XYZ"
-              width={500}
-              height={500}
-              className="w-full h-auto object-cover rounded-full shadow-lg shadow-[#111]"
-            />
-            <div className="p-5">
-              <p className="text-lg mb-5 font-specialelite font-bold leading-snug tracking-widest text-stone-900">
-                Sh./Smt.&nbsp;XYZ,&nbsp;POST
-                <br />
-                AGGARWAL&nbsp;SABHA&nbsp;-&nbsp;ROHINI.
-              </p>
-              <h3 className="w-full rounded-3xl bg-stone-900 font-sourceserifpro font-semibold tracking-widest leading-6 py-2 text-[gold] hover:bg-[darkslateblue] hover:text-white hover:shadow-md duration-75">
-                Happy&nbsp;Birthday!
-              </h3>
+          <div className="max-w-fit overflow-hidden rounded-lg p-3 m-2 bg-blue-100 shadow-[#111] shadow-lg duration-200 hover:shadow-xl">
+            <div>
+              <label
+                htmlFor="name"
+                className="inline-block pr-2 pl-auto text-[#111] text-justify text-lg lg:text-base sm:text-lg font-specialelite"
+              >
+                MONTH
+              </label>
+              <select
+                value={selectedDay}
+                onChange={e => setSelectedDay(e.target.value)}
+                className="rounded-lg text-black bg-slate-100"
+              >
+                <option value="01">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+                <option value="04">04</option>
+                <option value="05">05</option>
+                <option value="06">06</option>
+                <option value="07">07</option>
+                <option value="08">08</option>
+                <option value="09">09</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+              </select>
+              {filteredUsers.map(user => (
+                <User
+                  key={user.id}
+                  name={user.name}
+                  image={user.image}
+                  dob={user.dob}
+                />
+              ))}
             </div>
           </div>
         </div>

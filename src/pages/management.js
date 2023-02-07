@@ -41,6 +41,122 @@ const About = () => {
       name: "Sh. Sanjay Goyal",
       picture: "/static/pics/avataaars_1_male.png",
     },
+    {
+      name: "Sh.",
+      picture: "/static/pics/avataaars_1_male.png",
+    },
+    {
+      name: "Sh.",
+      picture: "/static/pics/avataaars_1_male.png",
+    },
+    {
+      name: "Sh.",
+      picture: "/static/pics/avataaars_1_male.png",
+    },
+    {
+      name: "Sh.",
+      picture: "/static/pics/avataaars_1_male.png",
+    },
+    {
+      name: "Sh.",
+      picture: "/static/pics/avataaars_1_male.png",
+    },
+    {
+      name: "Sh.",
+      picture: "/static/pics/avataaars_1_male.png",
+    },
+    {
+      name: "Sh.",
+      picture: "/static/pics/avataaars_1_male.png",
+    },
+    {
+      name: "Sh.",
+      picture: "/static/pics/avataaars_1_male.png",
+    },
+    {
+      name: "Sh.",
+      picture: "/static/pics/avataaars_1_male.png",
+    },
+    {
+      name: "Sh.",
+      picture: "/static/pics/avataaars_1_male.png",
+    },
+    {
+      name: "Sh.",
+      picture: "/static/pics/avataaars_1_male.png",
+    },
+    {
+      name: "Sh.",
+      picture: "/static/pics/avataaars_1_male.png",
+    },
+    {
+      name: "Sh.",
+      picture: "/static/pics/avataaars_1_male.png",
+    },
+    {
+      name: "Sh.",
+      picture: "/static/pics/avataaars_1_male.png",
+    },
+    {
+      name: "Sh.",
+      picture: "/static/pics/avataaars_1_male.png",
+    },
+    {
+      name: "Sh.",
+      picture: "/static/pics/avataaars_1_male.png",
+    },
+    {
+      name: "Sh.",
+      picture: "/static/pics/avataaars_1_male.png",
+    },
+    {
+      name: "Sh.",
+      picture: "/static/pics/avataaars_1_male.png",
+    },
+    {
+      name: "Sh.",
+      picture: "/static/pics/avataaars_1_male.png",
+    },
+    {
+      name: "Sh.",
+      picture: "/static/pics/avataaars_1_male.png",
+    },
+    {
+      name: "Sh.",
+      picture: "/static/pics/avataaars_1_male.png",
+    },
+    {
+      name: "Sh.",
+      picture: "/static/pics/avataaars_1_male.png",
+    },
+    {
+      name: "Sh.",
+      picture: "/static/pics/avataaars_1_male.png",
+    },
+    {
+      name: "Sh.",
+      picture: "/static/pics/avataaars_1_male.png",
+    },
+    {
+      name: "Sh.",
+      picture: "/static/pics/avataaars_1_male.png",
+    },
+    {
+      name: "Sh.",
+      picture: "/static/pics/avataaars_1_male.png",
+    },
+    {
+      name: "Sh.",
+      picture: "/static/pics/avataaars_1_male.png",
+    },
+    {
+      name: "Sh.",
+      picture: "/static/pics/avataaars_1_male.png",
+    },
+    {
+      name: "Sh.",
+      picture: "/static/pics/avataaars_1_male.png",
+    },
   ]
 
   return (
@@ -70,10 +186,13 @@ const About = () => {
                 </h2>
                 {/* ::Text */}
                 <p className="mt-4 text-sm">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                  neque nisi eum voluptatem itaque maxime. Ut aperiam aliquid
-                  distinctio id iusto, fugit, delectus sequi aliquam eveniet
-                  dolor vel, maiores itaque.
+                  Our current management comprises of 38 people, of all age
+                  groups. This ensures that we benefit from the experience of
+                  senior members & fresh ideas, enthusiasm of younger, emerging
+                  members. We cannot do without the participation of women in
+                  the group, who play an extremely important role in guiding
+                  other members when it comes various aspects of society & other
+                  social events.
                 </p>
               </div>
               {/* :TEAM */}
