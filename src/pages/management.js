@@ -10,7 +10,7 @@ const About = () => {
       picture: "/static/pics/avataaars_1_male.png",
     },
     {
-      name: "Sh. Deepak Aggarwal",
+      name: "Sh. SANJAY BANSAL",
       picture: "/static/pics/avataaars_1_male.png",
     },
     {
@@ -42,8 +42,8 @@ const About = () => {
       picture: "/static/pics/avataaars_1_male.png",
     },
     {
-      name: "Sh.",
-      picture: "/static/pics/avataaars_1_male.png",
+      name: "Sh. TUSHAL SINGHAL",
+      picture: "/static/pics/tushalgupta.jpg",
     },
     {
       name: "Sh.",
