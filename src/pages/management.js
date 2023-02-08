@@ -6,8 +6,8 @@ import Seo from "../components/seo"
 const About = () => {
   const people = [
     {
-      name: "Sh. Atul Singhal",
-      picture: "/static/pics/atulsinghal.jpg",
+      name: "Sh. GOPAL KRISHAN GARG",
+      picture: "/static/pics/avataaars_1_male.png",
     },
     {
       name: "Sh. Deepak Aggarwal",
