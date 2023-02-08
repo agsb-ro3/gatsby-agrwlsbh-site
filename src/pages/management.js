@@ -43,7 +43,7 @@ const About = () => {
     },
     {
       name: "Sh. TUSHAL SINGHAL",
-      picture: "/static/pics/tushalgupta.jpg",
+      picture: "/static/pics/tushalgutpa.jpg",
     },
     {
       name: "Sh.",
