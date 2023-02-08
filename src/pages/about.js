@@ -13,7 +13,7 @@ const About = () => {
     {
       name: "Sh. Naresh Gupta",
       role: "POST",
-      picture: "/static/pics/avataaars_1_male.png",
+      picture: "/static/pics/naresh gupta.png",
     },
     {
       name: "Sh. Sanjay Bansal",
