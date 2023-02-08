@@ -7,22 +7,22 @@ const About = () => {
   const people = [
     {
       name: "Sh. Krishan Gopal Garg",
-      role: "POST",
+      role: "FOUNDING MEMBER",
       picture: "/static/pics/krishangopalgarg.jpg",
     },
     {
       name: "Sh. Naresh Gupta",
-      role: "POST",
+      role: "FOUNDING MEMBER",
       picture: "/static/pics/nareshgupta.png",
     },
     {
       name: "Sh. Sanjay Bansal",
-      role: "POST",
+      role: "FOUNDING MEMBER",
       picture: "/static/pics/sanjaybansal.jpg",
     },
     {
       name: "Sh. Vipin Goel",
-      role: "POST",
+      role: "FOUNDING MEMBER",
       picture: "/static/pics/avataaars_1_male.png",
     },
     {
